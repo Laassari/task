@@ -19,7 +19,7 @@ module.exports = merge(common, {
           {
             loader: MiniCssExtractPlugin.loader,
           },
-           'css-loader',
+          'css-loader',
           {
             loader: 'postcss-loader',
             options: {
@@ -46,7 +46,7 @@ module.exports = merge(common, {
   plugins: [
     //extract styles to file
     new MiniCssExtractPlugin({
-      filename: 'static/css/[name].[hash].css',
+      filename: '[name].[hash].css',
     }),
 
     new Critters({
