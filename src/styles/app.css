@@ -33,7 +33,7 @@ section.hero {
       hsla(0, 0%, 0%, 0.5),
       hsla(0, 0%, 0%, 0.5)
     ),
-    url("../images/public-wifi.jpg");
+    url('../images/public-wifi.jpg');
   background-size: cover;
   background-position: center;
   height: 460px;
@@ -98,6 +98,7 @@ section.content article {
 
 section.content article .content {
   padding-right: 3rem;
+  width: 70%;
 }
 
 section.content .info {
@@ -422,11 +423,11 @@ aside .categories ul img {
     padding-left: 1rem;
   }
   section.content article {
-  flex-direction: column;
+    flex-direction: column;
   }
   section.content article img {
     width: 100%;
-    order: -1
+    order: -1;
   }
 
   section.content .info {
@@ -436,6 +437,10 @@ aside .categories ul img {
   section.content .likes {
     order: -1;
     padding: 10px 0;
+  }
+
+  section.content article .content {
+    width: 100%;
   }
 }
 
@@ -457,5 +462,3 @@ aside .categories ul img {
 .bold {
   font-weight: bold;
 }
-
-
